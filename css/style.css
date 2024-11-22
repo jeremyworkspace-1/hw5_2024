@@ -1,7 +1,7 @@
 body{
     font-size: 1.4em;
     font-family: 'Poppins', serif;
-    background-image: url("/images/concrete_seamless.png");
+    background-image: url("images/concrete_seamless.png");
     background-color: #f1f1f1;
   }
   
@@ -13,7 +13,6 @@ body{
     align-items: center;
   }
 
-  
 
   .nav_links{
     display: flex;
@@ -40,8 +39,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 450px;
-    flex-grow: 1;
-    border-radius: 50px;
+    /* flex-grow: 1; */
+    border-radius: 50px 50px 0px 0px;
   
   }
   .card > header {
@@ -113,7 +112,6 @@ body{
     }
     
   }
-
 
   @media all and (prefers-reduced-motion: reduce) {
     #logo {
